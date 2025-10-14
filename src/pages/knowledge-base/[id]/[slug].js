@@ -253,7 +253,7 @@ const AccordionContent = ({ item, index, title }) => {
                     content?.downloadButtons?.map((value) => {
                       return (
                         <a
-                          href={value?.link}
+                          href={value?.url}
                           className="btn btn-success rounded-5 my-3 btn-download d-flex justify-content-center align-items-center w-50"
                           target="_blank"
                           rel="noreferrer"
